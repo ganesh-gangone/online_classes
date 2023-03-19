@@ -51,7 +51,7 @@ body{
     outline: none;
     border-radius: 5px;
 }
-.subdiv{
+/*.subdiv{
    
     background: #fff;
     text-align: center;
@@ -69,15 +69,24 @@ body{
     background-color: #fff;
     border: 0px;
     cursor: pointer;
-}
+}*/
 
 .select-box select{
     height: 100%;
-    border-radius: 18px;
+    border-radius: 10px;
     text-align: center;
     width: 100%;
     outline: none;
     border: none;
     color: #707070;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+}
+.subdiv{
+    text-align: center;
+    margin-top: 18px;
+    
+}
+.subdivbtn
+{
+    border-radius: 30px;
 }

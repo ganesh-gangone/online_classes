@@ -42,18 +42,11 @@ body{
     border-radius: 5px;
 }
 .subdiv{
-    background: #fff;
-    
     text-align: center;
-    padding: 10px;
-    margin: 40px ;
-    border-radius: 80px;
-    transition: all 0.3s ease;
-    cursor: pointer;
+    margin-top: 18px;
+    
 }
-.btn{
-    text-decoration: none;
-    background-color: #fff;
-    border: 0px;
-    cursor: pointer;
+.subdivbtn
+{
+    border-radius: 30px;
 }
