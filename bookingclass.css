@@ -6,29 +6,28 @@
     font-family: 'Prata', serif;
     text-decoration: none;
 }
-body{
+.background-container{
     background: url('backimg.jpg') no-repeat;
     background-size: cover;
+    height: 100vh;
+    width: 100vw;
    
 }
 .headings{
     color: #fff;
     text-align: center;
-    margin: 20px;
+    padding: 20px;
 }
 .headings h1{
     font-size: 30px;
    text-align: center;
    text-transform: uppercase;
-   margin: 35px 0;
+   padding: 35px 0;
 }
 .login-form{
     color: #fff;
-    width: 500px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    position: absolute;
+   
+   text-align: center;
     
     
 }
@@ -75,11 +74,12 @@ body{
     height: 100%;
     border-radius: 10px;
     text-align: center;
-    width: 100%;
+    width: 30vw;
     outline: none;
     border: none;
     color: #707070;
-    font-size: 1.5rem;
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .subdiv{
     text-align: center;
@@ -89,4 +89,14 @@ body{
 .subdivbtn
 {
     border-radius: 30px;
+}
+@media screen and (max-width : 602px) {
+    .select-box select{
+        width: 50vw; 
+        font-family: 18px;      
+    }
+   
+}
+@media screen and (max-width : 602px){
+
 }
