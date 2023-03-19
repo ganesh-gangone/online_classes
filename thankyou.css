@@ -1,35 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Prata', serif;
     text-decoration: none;
 }
-body{
+
+.background-container {
     background: url('backimg.jpg') no-repeat;
     background-size: cover;
-   
+    height: 100vh;
+    width: 100vw;
+
 }
-.headings{
+
+.headings {
     color: #fff;
     text-align: center;
-    margin: 20px;
+    padding: 20px;
 }
-.headings h1{
+
+.headings h1 {
     font-size: 30px;
-   text-align: center;
-   text-transform: uppercase;
-   margin: 35px 0;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 47px 0 5px;
 }
-.headings h3{
+
+.headings h3 {
     font-size: 15px;
-   text-align: center;
-   text-transform: uppercase;
-   margin: 35px 0;
-   
-   
+    text-align: center;
+    text-transform: uppercase;
+    margin: 35px 0;
+
+
 }
+
 /*.login-form{
     color: #fff;
     width: 350px;
@@ -97,4 +105,9 @@ form h4{
     margin-top: 50px;
 }
 */
-
+@media screen and (max-width : 600px) {
+    .background-container {
+        height: 100vh;
+        padding-top: 200px;
+    }
+}
